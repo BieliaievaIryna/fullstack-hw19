@@ -27,6 +27,6 @@ function getRandomInt(min, max) {
 */
 
 export { getRandomInt }
-console.log(getRandomInt(1, 10));
-console.log(getRandomInt(40, 50));
-console.log(getRandomInt(1, 100));
+console.log('getRandomInt: ', getRandomInt(1, 10));
+console.log('getRandomInt: ', getRandomInt(40, 50));
+console.log('getRandomInt: ', getRandomInt(1, 100));

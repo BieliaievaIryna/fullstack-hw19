@@ -9,12 +9,12 @@ console.log('JS #2. Домашнє завдання. Від простих до 
 
 // i
 var i = 10;
-console.log(++i);
-console.log(i++);
-console.log(i);
-console.log(--i);
-console.log(i--);
-console.log(i);
+console.log('Prefix increment: ', ++i);
+console.log('Postfix increment: ', i++);
+console.log('I value: ', i);
+console.log('Prefix decrement: ', --i);
+console.log('Postfix decrement: ', i--);
+console.log('I value: ', i);
 
 /*
  * #2
@@ -29,19 +29,19 @@ var myNum = 10
 var myTest = 20;
 // +=
 myTest += myNum;
-console.log(myTest);
+console.log('+=: ', myTest);
 // –=
 myTest -= myNum;
-console.log(myTest);
+console.log('-=: ', myTest);
 // *=
 myTest *= myNum;
-console.log(myTest);
+console.log('*=: ', myTest);
 // /=
 myTest /= myNum;
-console.log(myTest);
+console.log('/=: ', myTest);
 // %=
 myTest %= myNum;
-console.log(myTest);
+console.log('%=: ', myTest);
 
 
 /*
@@ -52,16 +52,16 @@ console.log(myTest);
 
 // константа Pi → myPi
 var myPi = Math.PI;
-console.log(myPi);
+console.log('Math.PI: ', myPi);
 // округлене значення числа 89.279 → myRound
 var myRound = Math.round(89.279);
-console.log(myRound);
+console.log('Math.round: ', myRound);
 // випадкове число між 0..10 (10 не включено) → myRandom
 var myRandom = Math.random() * 10;
-console.log(myRandom);
+console.log('Math.random: ', myRandom);
 // 3 у 5 степені → myPow
 var myPow = Math.pow(3, 5);
-console.log(myPow);
+console.log('Math.pow: ', myPow);
 
 
 /*
@@ -79,7 +79,7 @@ var strObj = {
   str: str,
   length: strLength
 };
-console.log(strObj);
+console.log('strObj: ', strObj);
 
 
 /*
@@ -92,10 +92,10 @@ console.log(strObj);
 
 // isRamaPos
 var isRamaPos = strObj['str'].indexOf('рама');
-console.log(isRamaPos);
+console.log('isRamaPos: ', isRamaPos);
 // isRama
 var isRama = strObj['str'].includes('рама');
-console.log(isRama);
+console.log('isRama: ', isRama);
 
 
 /*
@@ -109,7 +109,7 @@ console.log(isRama);
 
 // strReplace
 var strReplace = strObj['str'].replace('Мама мыла раму, рама мыла маму', 'Мама моет раму, Рама держит маму');
-console.log(strReplace);
+console.log('strReplace: ', strReplace);
 
 
 /*
@@ -122,7 +122,7 @@ console.log(strReplace);
 var someStr = 'some STRING';
 // var upperStr
 var upperStr = someStr.toUpperCase();
-console.log(upperStr);
+console.log('toUpperCase: ', upperStr);
 // var lowerStr
 var lowerStr = someStr.toLowerCase();
-console.log(lowerStr);
+console.log('toLowerCase: ', lowerStr);

@@ -19,6 +19,6 @@ function greetByName(msg, name) {
 
 export { greetByName }
 
-console.log(greetByName('Hi', 'John'));
-console.log(greetByName('Hey', 'Bob'));
-console.log(greetByName('Hello', 'Mary'));
+console.log('Greet: ', greetByName('Hi', 'John'));
+console.log('Greet: ', greetByName('Hey', 'Bob'));
+console.log('Greet: ', greetByName('Hello', 'Mary'));
